@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-29T19:27:09 PKT" name="Suite" finished-at="2023-12-29T19:27:54 PKT" duration-ms="45057">
+    <groups>
+      <group name="grouplast">
+        <method signature="NG2class.moneee()[pri:5, instance:Framework.TestNG2.NG2class@2e377400]" name="moneee" class="Framework.TestNG2.NG2class"/>
+      </group> <!-- grouplast -->
+      <group name="groupoflogin">
+        <method signature="NG2class.login()[pri:2, instance:Framework.TestNG2.NG2class@2e377400]" name="login" class="Framework.TestNG2.NG2class"/>
+      </group> <!-- groupoflogin -->
+      <group name="3rdgroup">
+        <method signature="NG2class3.prioritym()[pri:3, instance:Framework.TestNG2.NG2class3@ed7f8b4]" name="prioritym" class="Framework.TestNG2.NG2class3"/>
+      </group> <!-- 3rdgroup -->
+      <group name="sitegroup">
+        <method signature="NG2class2.Checkout()[pri:1, instance:Framework.TestNG2.NG2class2@4c309d4d]" name="Checkout" class="Framework.TestNG2.NG2class2"/>
+      </group> <!-- sitegroup -->
+    </groups>
+    <test started-at="2023-12-29T19:27:09 PKT" name="Test" finished-at="2023-12-29T19:27:54 PKT" duration-ms="45057">
+      <class name="Framework.TestNG2.NG2class3">
+        <test-method signature="prioritym()[pri:3, instance:Framework.TestNG2.NG2class3@ed7f8b4]" started-at="2023-12-29T19:27:23 PKT" name="prioritym" finished-at="2023-12-29T19:27:23 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prioritym -->
+      </class> <!-- Framework.TestNG2.NG2class3 -->
+      <class name="Framework.TestNG2.NG2class">
+        <test-method signature="login()[pri:2, instance:Framework.TestNG2.NG2class@2e377400]" started-at="2023-12-29T19:27:09 PKT" name="login" finished-at="2023-12-29T19:27:23 PKT" duration-ms="14058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="moneee()[pri:5, instance:Framework.TestNG2.NG2class@2e377400]" started-at="2023-12-29T19:27:23 PKT" name="moneee" finished-at="2023-12-29T19:27:23 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moneee -->
+      </class> <!-- Framework.TestNG2.NG2class -->
+      <class name="Framework.TestNG2.NG2class2">
+        <test-method signature="Checkout()[pri:1, instance:Framework.TestNG2.NG2class2@4c309d4d]" started-at="2023-12-29T19:27:23 PKT" name="Checkout" finished-at="2023-12-29T19:27:54 PKT" duration-ms="30935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+      </class> <!-- Framework.TestNG2.NG2class2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
